@@ -1,0 +1,10 @@
+h2 {
+    color: #333; /* Dark grey text */
+    text-align: center; /* Center the text */
+    margin-bottom: 0.5rem; /* Add some space below the heading */
+    padding-bottom: 0.25rem; /* Add a little padding at the bottom */
+    border-bottom: 2px solid #007bff; /* Add a blue bottom border for a touch of color */
+    display: inline-block; /* Allow the border to fit to the text width */
+    margin-top: 1rem; /* Add some space above the heading */
+  }
+  
