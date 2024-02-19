@@ -7,4 +7,9 @@ h2 {
     display: inline-block; /* Allow the border to fit to the text width */
     margin-top: 1rem; /* Add some space above the heading */
   }
-  
+body {
+  background-color: #F9E8C9;
+}
+hr {
+  color: #201658;
+}

@@ -1,5 +1,18 @@
 <%- include("partials/header.ejs"); %>
-
-
-
+<div class="container mt-5">
+    <h1 class="mb-4">Blog Posts</h1>
+    <div class="row">
+        <% blogs.forEach(function(blog) { %>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><%- blog.title %></h5>
+                        <p class="card-text"><%- blog.content %></p>
+                        <a href="/edit/<%- blog.id %>" class="btn btn-secondary">Edit</a>
+                    </div>
+                </div>
+            </div>
+        <% }); %>
+    </div>
+</div>
 <%- include("partials/footer.ejs"); %>
